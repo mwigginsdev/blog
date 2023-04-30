@@ -45,6 +45,10 @@ jobs:
           ruby-version: 3   # reads from a '.ruby-version' or '.tools-version' file if 'ruby-version' is omitted
           bundler-cache: true
 
+        
+      - name: bundle install
+        run: bundle install
+
       - name: npm install
         run: npm install
 
