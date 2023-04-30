@@ -45,7 +45,10 @@ jobs:
           ruby-version: 3   # reads from a '.ruby-version' or '.tools-version' file if 'ruby-version' is omitted
           bundler-cache: true
 
-      - name: Build site
+      - name: npm ci
+        run: npm ci
+
+      - name: npm build
         run: npm run build
 
       - name: Build site
