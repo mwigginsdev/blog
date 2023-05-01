@@ -10,4 +10,4 @@ I am a full stack mobile engineer based in Illinois, currently working at Casa l
 
 I'm also attending the University of Illinois for a Master's in CS because I have a passion for learning and teaching.
 
-Check out what I've been building on the [Work](http://localhost:4000/work/) page!
+Check out what I've been building on the [Work](https://www.wiggins.dev/work/) page!

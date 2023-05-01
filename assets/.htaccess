@@ -1,0 +1,5 @@
+ErrorDocument 404 http://www.wiggins.dev/
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
